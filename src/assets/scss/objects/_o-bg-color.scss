@@ -1,0 +1,8 @@
+.o-bg-color{
+    &-primary{
+        background-color: $color-primary;
+    }
+    &-secondary{
+        background-color: $color-secondary;
+    }
+}

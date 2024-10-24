@@ -1,0 +1,25 @@
+@mixin title-text(){
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.2;
+    line-height: normal;
+    @content;
+};
+
+@mixin theme-dark(){
+    body.t-dark &{
+        @content;
+    }
+};
+
+@mixin md(){
+    @media (min-width: 1101px){
+        @content;
+    }
+}
+
+@mixin sm(){
+    @media (min-width: 500px){
+        @content;
+    }
+}

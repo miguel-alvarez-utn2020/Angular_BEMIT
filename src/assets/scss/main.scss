@@ -1,0 +1,31 @@
+// SETTING
+@import "./settings/settings.scss";
+//TOOLS Functions - Mixins
+@import "./tools/functions";
+@import "./tools/mixins";
+
+//GENERIC
+@import "./generic/genetic.scss";
+
+//TAGS
+@import "./tags/tags";
+
+//KEYFRAMES
+@import "./keyframes/keyframes.scss";
+
+//OBJECT
+@import "./objects/o-color";
+@import "./objects/o-container";
+@import "./objects/o-text-align";
+@import "./objects/o-bg-color";
+@import "./objects/o-font-size";
+
+//COMPONENTS
+@import "../../assets/scss/components/components.scss"; 
+
+//SCOPES
+@import "./scopes/scopes.scss";
+
+//UTILITIES
+@import "./utilities/utilities";
+

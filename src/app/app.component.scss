@@ -1,0 +1,39 @@
+
+@import "../assets/scss/settings/settings.scss";
+@import "../assets/scss/tools/mixins";
+
+// .c-section{
+//     border: 2px solid $color-primary;
+//     padding: 20px;
+//     border-radius: 15px;
+//     transition: border-color 0.5s ease;
+//     background-color: blanchedalmond;
+//     &__title{
+//         @include theme-dark(){
+//             color: $color-light;
+//         }
+//     }
+//     @include theme-dark(){
+//         background-color: azure;
+//     }
+//     &.is-active{
+//         border-color: $color-dager;
+//     }
+  
+// }
+
+
+
+.titulo{
+    color: green;
+}
+
+.text{
+    color: rgb(29, 33, 32);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    @include md(){
+        
+    }
+}

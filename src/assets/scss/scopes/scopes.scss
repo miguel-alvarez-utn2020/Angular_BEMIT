@@ -1,0 +1,25 @@
+.s-debug{
+    [class]{
+        outline: 2px solid lightgray;
+    };
+
+    [class*="__" ]{
+        outline-color: grey;
+    };
+
+    [class*="__"]{
+        outline-color: violet;
+    }
+    [class^="o-" ],
+    [class*="o-" ]
+    {
+        outline-color: #8b8a8a;
+    }
+
+    [class^="c-" ],
+    [class*="c-" ]
+    {
+        outline-color: red;
+    }
+
+}

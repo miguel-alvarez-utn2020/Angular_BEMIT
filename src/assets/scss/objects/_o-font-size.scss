@@ -1,0 +1,23 @@
+.o-font{
+    color: $color-dark;
+    &-label{
+        font-size: 12px;
+    }
+    &-title{
+        font-size: 14px;
+        transition: font-size .2s ease;
+        &\@md{
+            @include sm{
+                font-size: 18px;
+            }
+        }
+        &\@md{
+            @include md{
+                font-size: 24px;
+            }
+        }
+    }
+    &-sub-title{
+        font-size: 18px;
+    }
+}
